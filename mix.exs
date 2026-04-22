@@ -103,6 +103,7 @@ defmodule PhoenixTauri.MixProject do
       "assets.setup": ["tailwind.install --if-missing", "esbuild.install --if-missing"],
       "assets.build": ["compile", "tailwind phoenix_tauri", "esbuild phoenix_tauri"],
       "assets.deploy": [
+        "compile",
         "tailwind phoenix_tauri --minify",
         "esbuild phoenix_tauri --minify",
         "phx.digest"

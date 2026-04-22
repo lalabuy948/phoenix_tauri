@@ -11,6 +11,7 @@ A desktop application powered by Phoenix LiveView and Tauri. Packages a Phoenix 
 - Elixir 1.15+ / Erlang OTP 27+
 - Rust 1.70+ and Cargo
 - Node.js 18+ / npm
+- Zig 0.15.2+
 - Tauri CLI (`cargo install tauri-cli`)
 
 ## Development
